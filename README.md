@@ -16,7 +16,7 @@
 ### 解决依赖： 
 
 ```shell
-$ pip install -r requirements.txt
+pip install -r requirements.txt --index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```  
 
 ## 使用说明 
@@ -26,7 +26,7 @@ $ pip install -r requirements.txt
 
 2. 在项目目录中执行：  
 ```shell
-$ python jianshu2e-book.py
+python jianshu.py
 ```
 
 稍等片刻，EPub格式的电子书和html文件会生成在「生成的电子书」文件夹中。
